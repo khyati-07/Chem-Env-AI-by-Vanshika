@@ -53,6 +53,29 @@ Recommended public datasets:
 
 ## Setup
 
+### Streamlit App (Interactive Web UI)
+
+**Prerequisites:** Python 3.9 or higher — download from [python.org](https://www.python.org/downloads/)
+
+```bash
+# 1. Install dependencies
+pip install -r requirements_streamlit.txt
+
+# 2. Run the app
+streamlit run streamlit_app.py
+```
+
+The app will open in your browser at **http://localhost:8501**
+
+### Tkinter App (Desktop GUI)
+
+```bash
+# No extra packages needed — tkinter comes with Python
+python smart_pollution_app.py
+```
+
+### Original ML Pipeline
+
 ```bash
 # Create virtual environment
 python -m venv venv
